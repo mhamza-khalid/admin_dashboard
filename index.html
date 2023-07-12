@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">     <!--Main container having two columns (1fr 4fr) columns-->
+
+        <div class="sidebar">    <!--Sidebar containing 1fr of container column-->
+          <div class="logo">
+            <img class="logo_dashboard" src = "assets/logo.svg" alt="logo"/><h1>Dashboard</h1>
+            
+          </div>
+          <div class="navigation">
+            
+              <img class="home_logo" src="assets/home.svg" alt="home">
+              <p>Home</p>
+
+              <img class="profile_logo" src="assets/badge-account-horizontal-outline.svg" alt="profile">
+              <p>Profile</p>
+
+              <img class="messages_logo" src="assets/message-reply.svg" alt="message">
+              <p>Messages</p>
+
+              <img class="history_logo" src="assets/clock-time-three.svg" alt="history">
+              <p>History</p>
+
+              <img class="tasks_logo" src="assets/note-multiple.svg" alt="tasks">
+              <p>Tasks</p>
+
+              <img class="communities_logo" src="assets/account-group.svg" alt="communities">
+              <p>Communities</p>
+            
+          </div>
+
+          <div class="support">
+                   
+            <img class="settings_logo" src="assets/cog.svg" alt="settings">
+            <p>Settings</p>
+
+            <img class="support_logo" src="assets/help-box.svg" alt="help">
+            <p>Help</p>
+
+            <img class="privacy_logo" src="assets/shield-check.svg"  alt="privacy">
+            <p>Privacy</p>
+
+          </div>
+
+
+        </div> 
+        
+        <div class="main_content">   <!--main_content containing 4fr of container column-->  
+                                     <!--main_content is a grid 1fr 4fr (rows)
+                                        itself containing header and content-->
+            
+            <div class="header">     <!--takes 1fr row of main_content-->
+              
+              <div class="searchbar">
+
+                  <div class="searchInput">
+                    <img class="search" src="assets/magnify.svg" alt="search">
+                    <input type="text" class="searchInput2">
+                  </div>
+
+                  <div class="searchbarRight">
+                     <img class="bell" src="assets/bell-ring.svg" alt="bell">
+                     <img class="pp" src="assets/profile-small.svg" alt="pic">
+                     <p>Morgan Oakley</p>
+                  </div>
+              </div>
+              <div class="user">
+                <div class="welcome">
+                     <img class="bp" src="assets/profile-big.svg" alt="profile">
+                     <div class="text">
+                       <span class="small-text">Hi there,</span><br>
+                       <span class="large-text">Morgan Oakley (@morgan)</span>
+                     </div>
+                </div>
+                <div class="buttons">
+                  <button>New</button>
+                  <button>Upload</button>
+                  <button>Share</button>
+                </div>
+              </div>
+              
+            </div>
+            
+            <div class="content">     <!--takes 4fr row of main_content-->
+                
+
+              <div class="main_cards">
+                
+                <div class="project">
+                  <p>Your Projects</p>
+                </div>
+
+                <div class="project_display">
+                  <div class="card">
+                    <p class="title">Super Cool Project</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <div class="widgets">
+                    <img class="eye" src="assets/eye-plus-outline.svg" alt="eye"> <img src="assets/share-variant-outline.svg" class="fork" alt="">
+                    </div>
+                  </div>
+                  <div class="card">
+                    <p class="title">Less Cool Project</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <div class="widgets">
+                      <img class="eye" src="assets/eye-plus-outline.svg" alt="eye"> <img src="assets/share-variant-outline.svg" class="fork" alt="">
+                      </div>
+                  </div>
+                  <div class="card">
+                    <p class="title">Impossible App</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <div class="widgets">
+                      <img class="eye" src="assets/eye-plus-outline.svg" alt="eye"> <img src="assets/share-variant-outline.svg" class="fork" alt="">
+                      </div>
+                  </div>
+                  <div class="card">
+                    <p class="title">Easy Peasy App</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <div class="widgets">
+                      <img class="eye" src="assets/eye-plus-outline.svg" alt="eye"> <img src="assets/share-variant-outline.svg" class="fork" alt="">
+                      </div>
+                  </div>
+                  <div class="card">
+                    <p class="title">Ad blocker</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <div class="widgets">
+                      <img class="eye" src="assets/eye-plus-outline.svg" alt="eye"> <img src="assets/share-variant-outline.svg" class="fork" alt="">
+                      </div>
+                  </div>
+                  <div class="card">
+                    <p class="title">Money Maker</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <div class="widgets">
+                      <img class="eye" src="assets/eye-plus-outline.svg" alt="eye"> <img src="assets/share-variant-outline.svg" class="fork" alt="">
+                      </div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="side_cards">
+                 
+                <div class="announcements">
+                   <p class="aTitle">Announcements</p>
+                   <div class="announce">
+                    <p class = atitle>Site Maintainence</p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    <hr>
+                    <p class = atitle>Community Share Day</p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    <hr>
+                    <p class = atitle>Updated Privacy Policy</p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    
+                   </div>
+                </div>
+                <div class="trending">
+                    <p class="tTitle">Trending</p>
+
+                    <div class="trendingItems">
+                      <div class="t1">
+                        <img class="pp1" src="assets/profile-small.svg" alt="pp">
+                        <p>@tegan<br>World Peace Builder</p>
+                        
+                      </div>
+
+                      <div class="t2">
+                        <img class="pp1" src="assets/profile-small.svg" alt="pp">
+                        <p>@morgan<br>Super Cool Project</p>
+                      </div>
+
+                        <div class="t3">
+                          <img class="pp1" src="assets/profile-small.svg" alt="pp">
+                          <p>@kendall<br>Life Changing App</p>
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
